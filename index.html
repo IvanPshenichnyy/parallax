@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        function parallax(e){
+         
+           this.querySelectorAll('.parallax_fon').forEach(parallax_fon => {
+            let speed = parallax_fon.getAttribute('d-speed');
+               parallax_fon.style.transform = `translatey(${e.clientY*speed /1000}px)`
+           });
+           this.querySelectorAll('.parallax_fon').forEach(parallax_fon => {
+            let speed = parallax_fon.getAttribute('d-speed');
+               parallax_fon.style.transform = `translatex(${e.clientX*speed /10000}px)`
+           });
+
+        //    this.querySelectorAll('.parallax_fon_1').forEach(parallax_fon_1 => {
+        //        parallax_fon_1.style.transform = `translatey(${e.clientY /70}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_2').forEach(parallax_fon_2 => {
+        //        parallax_fon_2.style.transform = `translatey(${e.clientY /50}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_3').forEach(parallax_fon_3 => {
+        //        parallax_fon_3.style.transform = `translatey(${e.clientY /40}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_4').forEach(parallax_fon_4 => {
+        //        parallax_fon_4.style.transform = `translatey(${e.clientY /30}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_5').forEach(parallax_fon_5 => {
+        //        parallax_fon_5.style.transform = `translatey(${e.clientY /20}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_6').forEach(parallax_fon_6 => {
+        //        parallax_fon_6.style.transform = `translatey(${e.clientY /20}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_7').forEach(parallax_fon_7 => {
+        //        parallax_fon_7.style.transform = `translatey(${e.clientY /10}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_8').forEach(parallax_fon_0 => {
+        //        parallax_fon_8.style.transform = `translatey(${e.clientY /5}px)`
+        //    });
+
+        //     /* по Х */
+        
+
+        //    this.querySelectorAll('.parallax_fon_0').forEach(parallax_fon_0 => {
+        //        parallax_fon_0.style.transform = `translatex(${e.clientX /100}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_1').forEach(parallax_fon_1 => {
+        //        parallax_fon_1.style.transform = `translatex(${e.clientX /70}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_2').forEach(parallax_fon_2 => {
+        //        parallax_fon_2.style.transform = `translatex(${e.clientX /50}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_3').forEach(parallax_fon_3 => {
+        //        parallax_fon_3.style.transform = `translatex(${e.clientX /40}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_4').forEach(parallax_fon_4 => {
+        //        parallax_fon_4.style.transform = `translatex(${e.clientX /30}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_5').forEach(parallax_fon_5 => {
+        //        parallax_fon_5.style.transform = `translatex(${e.clientX /20}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_6').forEach(parallax_fon_6 => {
+        //        parallax_fon_6.style.transform = `translatex(${e.clientX /20}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_7').forEach(parallax_fon_7 => {
+        //        parallax_fon_7.style.transform = `translatex(${e.clientX /10}px)`
+        //    });
+        //    this.querySelectorAll('.parallax_fon_8').forEach(parallax_fon_0 => {
+        //        parallax_fon_8.style.transform = `translatex(${e.clientX /5}px)`
+        //    });
+        }
+        document.addEventListener('mousemove', parallax)
+        
+    </script> -->
+
+    <div id="scene" class="parallax">
+        <div data-depth="0.9"   class="parallax_fon_0 parallax_fon"></div>
+        <div data-depth="0.7"  class="parallax_fon_1 parallax_fon"></div>
+        <div data-depth="0.6"  class="parallax_fon_2 parallax_fon"></div>
+        <div data-depth="0.5"  class="parallax_fon_3 parallax_fon"></div>
+        <div data-depth="0.4"  class="parallax_fon_4 parallax_fon"></div>
+        <div data-depth="0.3"  class="parallax_fon_5 parallax_fon"></div>
+        <div data-depth="0.2"  class="parallax_fon_6 parallax_fon"></div>
+        <div data-depth="0.1"  class="parallax_fon_7 parallax_fon"></div>
+        <div data-depth="1"  class="parallax_fon_8 parallax_fon"></div>
+    </div>
+
+    <script src="/parallax.js"></script>
+    <script>
+            var scene = document.getElementById('scene');
+            var parallaxInstance = new Parallax(scene); 
+        </script>
+        
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

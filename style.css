@@ -1,0 +1,88 @@
+
+    html{
+    padding: 0;
+    margin: 0;
+      }
+    *{
+        overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    }
+
+    .parallax{
+        min-width: 100vw;
+        min-height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
+    background-color: rgba(238, 184, 5, 0.925);
+    }
+    .parallax_fon{
+  
+   
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background-position:  center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    }
+    .parallax_fon_0{
+   
+    background-image: url('/parallax0.png');
+    background-position: top center;
+       /* transform: scale(1.2); */
+    }
+    .parallax_fon_1{
+    display: block;
+    height: 100vh;
+    background-position: center;
+    background-image: url('/parallax1.png');
+       /* transform: scale(1.2); */
+    }
+
+    .parallax_fon_2{
+    display: block;
+    height: 100vh;
+    background-image: url('/parallax2.png');
+       /* transform: scale(1.2); */
+    }
+    .parallax_fon_3{
+    display: block;
+    height: 100vh;
+    background-image: url('/parallax3.png');
+       /* transform: scale(1.2); */
+    }
+    .parallax_fon_4{
+    display: block;
+    height: 100vh;
+    background-image: url('/parallax4.png');
+       /* transform: scale(1.2); */
+    }
+    .parallax_fon_5{
+    display: block;
+    height: 100vh;
+    background-image: url('/parallax5.png');
+       /* transform: scale(1.2); */
+    }
+    .parallax_fon_6{
+    display: block;
+    height: 100vh;
+    background-image: url('/parallax6.png');
+       /* transform: scale(1.2); */
+    }
+    .parallax_fon_7{
+    display: block;
+    height: 100vh;
+    background-image: url('/parallax7.png');
+       /* transform: scale(1.2); */
+    }
+    .parallax_fon_8{
+    display: block;
+    height: 100vh;
+    background-image: url('/parallax8.png');
+       /* transform: scale(1.2); */
+    }
